@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* Fuente personalizada */
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Estructura general */
+body {
+  background: linear-gradient(120deg, #AE01AE, #000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+
+  font-family: Arial, sans-serif;
+  background-color: #B0B0B0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Encabezado */
+header, h1 {
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  color: #fff;
+  background-color: #9F05FF;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+/* Texto */
+p {
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Imágenes */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contenedor general */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 25px auto;
+}
+
+/* Navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* animation de botones */
+nav li {
+  list-style: none;
+  transition: 0.2s ease;
+}
+nav li:hover {
+  transform: scale(1.09);
+}
+/*##########################*/
+
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #B033A7;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #87328A;
+}
+
+/* Tabla */
+.mi-tabla {
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.mi-tabla th, .mi-tabla td {
+  border: 1px solid #000;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Main (contenido principal) */
+main {
+  background-color: white;
+  padding: 40px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  padding-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea, button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #B033A7;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 40px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #87328A;
+}
+
+/* Footer */
+footer {
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+/* 🌐 Adaptación para móviles */
+@media (max-width: 768px) {
+  header, h1 {
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  input, textarea, button {
+    font-size: 14px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .mi-tabla th, .mi-tabla td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+/* 📱 Ajuste extra para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  button {
+    padding: 10px;
+  }
+}
+
+
+
+
+
